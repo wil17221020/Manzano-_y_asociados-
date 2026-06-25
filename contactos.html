@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manzano y Asociados</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <!-- Iconos (FontAwesome opcional) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+    <header class="header" id="header">
+         <nav class="nav container">
+          <a href="index.html">
+            <img src="img/favicon2.png" class="nav__logo" width="108px" alt="Logo Manzano y Asociados" style="margin-top:-5px;">
+          </a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+
+                  <li class="nav__item">
+                     <a href="our.html" class="nav__link">
+                        <i class="ri-arrow-right-up-line"></i>
+                        <span>Sobre Nosotros</span>
+                     </a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="fundador.html" class="nav__link">
+                        <i class="ri-arrow-right-up-line"></i>
+                        <span>Nuestro Fundador</span>
+                     </a>
+                  </li>
+
+                  <!-- LOS tres de abajo son los tuyos papu   -->
+
+                  <li class="nav__item">
+                     <a href="areas.html" class="nav__link">
+                        <i class="ri-arrow-right-up-line"></i>
+                        <span>Áreas de práctica</span>
+                     </a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="valores.html" class="nav__link">
+                        <i class="ri-arrow-right-up-line"></i>
+                        <span>Nuestros Valores</span>
+                     </a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="contactos.html" class="nav__link">
+                        <i class="ri-arrow-right-up-line"></i>
+                        <span>Contactos</span>
+                     </a>
+                  </li>
+               </ul>
+
+               <!-- Close button -->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-large-line"></i>
+               </div>
+
+               <div class="nav__social">
+                  <a href="https://www.instagram.com/frmanzano/?hl=es" target="_blank" class="nav__social-link">
+                     <i class="ri-instagram-line"></i>
+                  </a>
+               </div>
+
+            </div>
+
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-line"></i>
+            </div>
+         </nav>
+      </header>
+
+        <br><br><br><br><br>
+      
+        
+<div class="slider-banner">
+    <img src="img/contactos.jpeg" alt="Slider principal">
+</div>
+
+
+      <main class="container contact-section">
+        <div class="contact-content">
+          <div class="contact-info">
+            <h1>Manzano Rodríguez & Asociados Consultores Legales</h1>
+            
+            <div class="contact-item">
+              <h3><i class="ri-phone-line"></i> Teléfono</h3>
+              <p><a href="tel:809-363-0015">809-363-0015</a></p>
+            </div>
+
+            <div class="contact-item">
+              <h3><i class="ri-mail-line"></i> Correo electrónico</h3>
+              <p><a href="mailto:abogados@mrabogados.com.do">abogados@mrabogados.com.do</a></p>
+            </div>
+          </div>
+
+          <div class="contact-image">
+            <img src="img/edificio.jpeg" alt="Edificio Manzano y Asociados">
+          </div>
+        </div>
+      </main>
+
+      <section class="contact-form-section">
+        <div class="container">
+          <div class="form-container">
+            <div class="form-content">
+              <h2>Envíanos un Mensaje</h2>
+              <form id="contactForm" class="contact-form" method="POST" action="php/enviar.php">
+                <div class="form-group">
+                  <label for="name">Nombre Completo</label>
+                  <input type="text" id="name" name="name" required placeholder="Tu nombre">
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Correo Electrónico</label>
+                  <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                </div>
+
+                <div class="form-group">
+                  <label for="phone">Teléfono</label>
+                  <input type="tel" id="phone" name="phone" placeholder="809-XXX-XXXX">
+                </div>
+
+                <div class="form-group">
+                  <label for="subject">Asunto</label>
+                  <input type="text" id="subject" name="subject" required placeholder="¿En qué podemos ayudarte?">
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Mensaje</label>
+                  <textarea id="message" name="message" rows="6" required placeholder="Cuéntanos tu consulta..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Enviar Mensaje</button>
+              </form>
+            </div>
+
+            <div class="map-content">
+              <h2>Ubicación</h2>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21442.93838246311!2d-69.94543100464394!3d18.466244539523625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf89dd734cded7%3A0x794e3b8818cbd987!2sManzano%20Rodriguez%20Consultores%20Legales!5e0!3m2!1ses-419!2sdo!4v1773291439350!5m2!1ses-419!2sdo" width="100%" height="450" style="border:0; border-radius: 8px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- Suscribir -->
+    <div class="footer-col">
+      <h3>Sobre Nosotros</h3>
+      <p>
+        Manzano Rodríguez & Asociados es una firma legal dominicana 
+        dedicada a ofrecer servicios jurídicos.
+      </p>
+      <a href="our.html">
+        <button type="button" class="btn">Ver más →</button>
+      </a>
+    </div>
+
+    <!-- Contacto -->
+    <div class="footer-col">
+      <h3>Contacto</h3>
+      <p>
+        Nos encantaría saber de usted. Contáctenos hoy mismo.
+      </p>
+      <a href="contactos.html">
+        <button type="button" class="btn">Ponte en contacto con nosotros →</button>
+      </a>
+    </div>
+
+    <!-- Redes -->
+    <div class="footer-col">
+      <h3>Seguir</h3>
+      <p>Sé parte de la conversación. Síguenos.</p>
+
+      <div class="social">
+        <a href="https://www.linkedin.com/in/francisco-manzano-7b2b091b0/" target="_blank" class="nav__social-link">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://twitter.com/frmanzano" target="_blank" class="nav__social-link">
+          <i class="fab fa-x-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/frmanzano/?hl=es" target="_blank" class="nav__social-link">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Parte inferior -->
+  <div class="footer-bottom">
+    <div class="links">
+      <a href="#"></a>
+      <a href="#"></a>
+      <a href="#"></a>
+      <a href="#"></a>
+      <a href="#"></a>
+      <a href="#"></a>
+    </div>
+
+    <p class="copy">
+      Todo el contenido © 2026 Manzano y Asociados. Todos los derechos reservados.
+    </p>
+  </div>
+</footer>
+
+
+
+
+
+      <script src="js/main.js"></script>
+</body>
+</html>

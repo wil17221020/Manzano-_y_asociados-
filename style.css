@@ -3185,3 +3185,15 @@ a {
 
 
 /*========== FIN SLIDER ==========*/
+
+@media screen and (max-width: 1149px) {
+  .nav__toggle,
+  .nav__close {
+    display: flex !important;
+    color: var(--white-color) !important;
+  }
+
+  .nav__menu.show-menu {
+    left: 0 !important;
+  }
+}
